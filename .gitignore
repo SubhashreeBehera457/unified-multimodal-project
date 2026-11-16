@@ -1,0 +1,43 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache & byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+backend/__pycache__/
+services/__pycache__/
+ml/__pycache__/
+state/__pycache__/
+
+# Machine learning models & checkpoints
+models/
+results_misinfo/
+*.pt
+*.pth
+*.safetensors
+*.pkl
+
+# Large datasets & raw archives
+data/
+*.csv
+*.zip
+*.tar.gz
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & temporary files
+*.log
+tempCodeRunnerFile.py
+
+# Frontend dependencies and distribution
+frontend/node_modules/
+frontend/dist/

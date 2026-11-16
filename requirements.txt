@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+shap
+transformers
+torch
+torchvision
+xgboost
+plotly
+folium
+streamlit-folium
+requests
